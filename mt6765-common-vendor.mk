@@ -1351,17 +1351,14 @@ PRODUCT_PACKAGES += \
     libh264enc_sa.ca7 \
     libmp4enc_sa.ca7 \
     libmp4enc_xa.ca7 \
-    libopus \
     libpredeflicker_native \
     librcs_interface \
     librcs_volte_core \
     libthermalalgo \
     libvc1dec_sa.ca7 \
     libvcodecdrv \
-    libvorbisidec \
     libvp8dec_sa.ca7 \
     libvp9dec_sa.ca7 \
-    libvpx \
     libvt_custom \
     vendor.mediatek.hardware.rcs@2.0 \
     gc02m1_sjc_mipi_raw_IdxMgr \
