@@ -10543,11 +10543,11 @@ cc_prebuilt_library_shared {
             shared_libs: [
                 "libmtkcam_device3_hidl",
                 "liblog",
-                "libutils",
+                "libutils-v32",
                 "libcutils",
                 "libladder",
                 "libhardware",
-                "libhidlbase",
+                "libhidlbase-v32",
                 "libhidltransport",
                 "android.hardware.camera.common@1.0",
                 "android.hardware.camera.provider@2.4",
