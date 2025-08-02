@@ -1546,7 +1546,6 @@ PRODUCT_PACKAGES += \
     libremosaiclib \
     libsecril-client \
     libsensor_custom \
-    libsensorndkbridge-v31 \
     libskeymaster4device \
     libstereoinfoaccessor_vsdof \
     libstorage_otp \

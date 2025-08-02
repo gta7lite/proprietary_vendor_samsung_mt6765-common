@@ -12196,7 +12196,7 @@ cc_prebuilt_library_shared {
                 "android.hardware.sensors@1.0",
                 "libhidlbase",
                 "libhidltransport",
-                "libsensorndkbridge-v31",
+                "libshim_sensors",
                 "libhardware",
                 "libmtkcam_modulehelper",
                 "libcamalgo.gyro",
@@ -16213,35 +16213,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libsensorndkbridge-v31",
-    owner: "samsung",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libsensorndkbridge-v31.so",
-            ],
-            shared_libs: [
-                "libbase",
-                "libhidlbase",
-                "libutils",
-                "android.frameworks.sensorservice@1.0",
-                "android.hardware.sensors@1.0",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "libskeymaster4device",
     owner: "samsung",
     strip: {
@@ -18036,7 +18007,7 @@ cc_prebuilt_binary {
                 "android.hardware.sensors@1.0",
                 "libhidlbase",
                 "libhidltransport",
-                "libsensorndkbridge-v31",
+                "libshim_sensors",
                 "libc++",
                 "libc",
                 "libm",
