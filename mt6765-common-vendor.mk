@@ -1755,6 +1755,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/mt6765-common/proprietary/vendor/lib64/libsecril-client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsecril-client.so \
     vendor/samsung/mt6765-common/proprietary/vendor/lib64/libsemnativecarrierfeature.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsemnativecarrierfeature.so \
     vendor/samsung/mt6765-common/proprietary/vendor/lib64/libsensor_custom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensor_custom.so \
+    vendor/samsung/mt6765-common/proprietary/vendor/lib64/libsensorndkbridge-v31.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensorndkbridge-v31.so \
     vendor/samsung/mt6765-common/proprietary/vendor/lib64/libsimlock.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsimlock.so \
     vendor/samsung/mt6765-common/proprietary/vendor/lib64/libsimmelock.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsimmelock.so \
     vendor/samsung/mt6765-common/proprietary/vendor/lib64/libspatializerparamstorage.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libspatializerparamstorage.so \
