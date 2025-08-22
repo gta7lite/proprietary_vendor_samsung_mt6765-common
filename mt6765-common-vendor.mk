@@ -1544,6 +1544,7 @@ PRODUCT_PACKAGES += \
     libratconfig \
     libremosaic_wrapper \
     libremosaiclib \
+    libril_sem \
     libsecril-client \
     libsensor_custom \
     libskeymaster4device \
@@ -1570,12 +1571,17 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.keymaster_attestation@1.0 \
     vendor.mediatek.hardware.keymaster_attestation@1.1 \
     vendor.mediatek.hardware.lbs@1.0 \
-    vendor.mediatek.hardware.meta@1.0 \
     vendor.mediatek.hardware.mmagent@1.0 \
     vendor.mediatek.hardware.mmagent@1.1 \
     vendor.mediatek.hardware.power@1.1 \
     vendor.mediatek.hardware.power@2.0 \
     vendor.samsung.hardware.gnss@2.0 \
+    vendor.samsung.hardware.radio.bridge@2.0 \
+    vendor.samsung.hardware.radio.bridge@2.1 \
+    vendor.samsung.hardware.radio.channel@2.0 \
+    vendor.samsung.hardware.radio@2.0_vendor \
+    vendor.samsung.hardware.radio@2.1_vendor \
+    vendor.samsung.hardware.radio@2.2_vendor \
     manifest_android.hardware.drm@1.4-service.widevine.xml \
     manifest_hwcomposer.xml \
     audiocmdservice_atci \
@@ -1592,6 +1598,7 @@ PRODUCT_PACKAGES += \
     android.hardware.media.c2@1.2-mediatek-64b \
     android.hardware.sensors@2.0-service-mediatek \
     camerahalserver \
+    rild \
     tetheroffloadservice \
     vendor.mediatek.hardware.mmagent@1.1-service \
     vendor.mediatek.hardware.mms@1.6-service \
@@ -1618,11 +1625,11 @@ PRODUCT_PACKAGES += \
     libccu_s5k4h7_hlt_mipi_raw.pm \
     libccu_sc800cs_ly_mipi_raw.dm \
     libccu_sc800cs_ly_mipi_raw.pm \
-    meta_tst \
     mnld \
     mt6660_calibration \
     mtk_pkm_service \
     netdagent \
+    netdc \
     nvram_daemon \
     rcs_volte_stack \
     rt5512_calibration \
